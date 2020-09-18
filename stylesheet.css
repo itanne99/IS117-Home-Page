@@ -1,0 +1,35 @@
+body {
+    margin: 0 0;
+}
+
+.nav-bar {
+    display: flex;
+    height: 72px;
+    background: #C4C4C4;
+}
+
+.nav-bar h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    margin: auto auto;
+
+    color: #000000;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button {
+    display: flex;
+    align-self: center;
+    padding: 25px 200px;
+}
+
+.button a {
+    font-size: 125%;
+}
